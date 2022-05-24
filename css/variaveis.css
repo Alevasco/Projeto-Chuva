@@ -1,0 +1,23 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto&display=swap');
+
+:root {
+/* Cor das bordas   */
+--rosa-claro:#FDF1EB;
+
+/* Cores das fontes */
+--branco: #FFFFFF;
+--branco-gelo:#cccccc;
+--marrom-claro: #725C5C;
+--orange:#ED7839;
+--cinza-chumbo: #4E4E4E;
+--cinza-claro: #e7e7e7;
+
+/* Cores dos botões */
+--orange:#ED7839;
+--marrom-medium: #333333;
+
+/* cor do retangulo Slaca */
+--orange-linear: linear-gradient(180deg, #ffb354 0%, #ee7a3a 100%);
+}

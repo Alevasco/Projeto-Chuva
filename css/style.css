@@ -1,0 +1,427 @@
+/* Estilo do conteudo da pagina */
+
+/* Cabeçalho principal*/
+.header-principal{
+    margin-left: 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 3.2rem;
+    padding-left: 3.6rem;
+    font-family: 'Roboto', sans-serif;
+  
+}
+
+.header-principal{
+  background: var(--rosa-claro);
+}
+
+.header-texto h2 {
+    position: relative;
+    display: flex;
+    font-weight: 400;
+    padding-top: 0.3rem;
+    font-size: 2.0rem;
+    line-height: 2.2rem;
+    font-size: 22px;
+    margin-left: 14px;
+  }
+
+  .header-texto p:nth-child(1) {
+    padding-top: 0.2rem;
+    font-size: 14px;
+    margin-left: 14px;
+  }
+  
+  .header-texto p:nth-child(3) {
+    padding-bottom: 0.2rem;
+    font-size: 20px;
+    margin-left: 14px;
+  }
+
+  /* linguagem e usuario */ 
+
+   
+  .opcao-idioma {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 0.2rem solid var(--branco-gelo);
+    border-radius: 0.4rem;
+    cursor: pointer;
+    width: 97px;
+    height: 40px;
+    left: 789px;
+    top: 17px;
+  }
+  
+  .opcao-idioma select {
+    color: var(--marrom-medium);
+    background-color: var(--rosa-claro);
+    border: none;
+    cursor: pointer;
+    font-family: "Quicksand";
+    
+    width: 60px;
+    height: 18px;
+    left: 820px;
+    top: 25px;
+      
+  }
+  
+  .login {
+    display: flex;
+    text-align: end;
+    font-family: "Quicksand";
+  }
+  
+  .imagem-usuario img{
+      margin-left: 0.4rem;
+      width: 40px;
+  }
+
+/* Primeira Section - Texto e Botões*/
+.container {
+  padding: 1rem 2.7rem;
+  height: auto;
+}
+
+.texto-botoes {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 250px;
+  color: var(--orange);
+  font-size: 15px;
+}
+
+.texto-botoes{
+  display: flex;
+  justify-content: space-between;
+}
+
+.botao-download, .botao-favoritar , .botao-doi{
+  border: 0;
+  cursor: pointer;
+}
+.botoes{
+  margin-left: 50px;
+}
+
+
+.texto-info{
+  font-family: 'Roboto', sans-serif;
+  margin-left: 250px;
+  letter-spacing: 0.05em;
+  font-size: 17px;
+  flex-direction: row;
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between; 
+}
+
+.texto-info img{
+  width: 100%;
+  height: 439px;
+  border-radius: 3px;
+}
+
+.citartrabalho{
+  font-family: 'Roboto', sans-serif;
+  margin-top: 5px;
+  margin-left: 50px;
+  color: var(--orange);
+  font-size: 13px;
+
+}
+
+/*Painel Detalhes*/
+.detalhes-titulo h2{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #4E4E4E;
+  padding: 10px;
+
+}
+
+.detalhes-titulo{
+  background-color: var(--rosa-claro);
+}
+
+.detalhes{
+  width: 242px;
+  height: 439px;
+  margin-left: 20px;
+  top: 73px;  
+  border: 1px solid #ECECEC;
+  border-radius: 3px 3px 0px 0px;
+  overflow: auto;
+}
+
+::-webkit-scrollbar{
+  background: #E7E7E7;
+  border-radius: 5px;
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #BFBFBF;
+  border-radius: 5px;
+}
+
+
+.info-detalhes, .autores, .universidades{
+  padding: 10px;
+  font-size: 13px;
+  margin-top: 15px;
+  color: #5C5C5C;
+}
+
+.universidades{
+  color: #8b8888;
+}
+
+/* Section Resumo*/
+.resumo {
+  
+  left: 0px;
+  top: 542px;
+  background: #FDF1EB;
+  border: 1px solid #ECECEC;
+  border-radius: 3px 3px 0px 0px;
+  
+}
+
+.resumo h2{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #4E4E4E;
+  padding: 10px;
+}
+
+.section-resumo {
+  margin-left: 250px;
+  margin-top: 20px;  
+  border: 1px solid #ECECEC;
+  border-radius: 3px 3px 0px 0px;
+}
+
+.texto-resumo {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  padding: 10px;
+  color: #5C5C5C;
+}
+
+/* Function js*/
+#mais {
+  display: none;
+}
+
+.botao-js{
+  cursor: pointer;
+  border: 0;
+  color: var(--orange);
+  background-color: var(--branco);
+  
+}
+
+/* Section Discussões */
+.section-discussoes{
+  margin-left: 250px;
+  margin-top: 20px;
+  border: 1px solid #ECECEC;
+  border-radius: 3px 3px 0px 0px;
+}
+
+.discussoes{
+  left: 0px;
+  top: 542px;
+  background: var(--rosa-claro);
+  border: 1px solid #ECECEC;
+  border-radius: 3px 3px 0px 0px;
+}
+
+.discussoes{
+  display: flex;
+}
+
+.discussoes h2{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #4E4E4E;
+  padding: 10px;
+}
+
+.ideias{
+  margin-top:20px;
+  text-align: center;
+  font-family: 'Roboto' ,sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--orange);
+}
+
+.icones{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.icones img{
+  margin: 20px;
+}
+
+.descricao-discussoes{
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #595959;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.linha-botao{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.linha-divisoria {
+  border: 1px solid #E7E7E7;
+  width: 94%;
+}
+
+.botao-criartopico{
+  border: 0;
+  background-color: #ffffff;
+  cursor: pointer;
+  margin-top: -20px;
+}
+
+.assunto-um{
+  background: #FFFFFF;
+  border: 1px solid #E7E7E7;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  margin: 20px;
+}
+
+.textos-discussao p:nth-child(1){
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--orange);
+  margin-left: 25px;
+  margin-top: 20px;
+}
+.textos-discussao p:nth-child(2){
+  font-family: 'Quicksand',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  margin-left: 25px;
+  margin-top: 5px;
+  color: #5C5C5C;
+}
+.textos-discussao p:nth-child(3){
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin-left: 25px;
+  margin-top: 20px;
+  color: #4D4D4D;
+}
+
+.reacoes-discussao{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 25px;
+  margin-top: 11px;
+}
+
+.reacoes-discussao img{
+  margin: 10px
+}
+.reacoes-discussao p{
+  margin: 10px
+}
+
+.reacoes-discussao p{
+  font-family: 'Segoe UI';
+  font-weight: 350;
+  font-size: 14px;
+  color: #757575;
+}
+
+.reaçoes{
+  border: 0;
+  cursor: pointer;
+  background-color: white;
+}
+/*Rodape*/
+footer {
+  margin-left:250px;
+}
+
+footer img {
+  width: 100%;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
